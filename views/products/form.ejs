@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../templates/head') %>
+  <body>
+    <form class="container p-5" action="/cargar" method="post">
+      <h1>Cargar productos</h1>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+        <input
+          type="text"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          name="name"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Precio</label>
+        <input
+          type="text"
+          class="form-control"
+          id="exampleInputPassword1"
+          name="price"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Imagen URL</label>
+        <input
+          type="text"
+          class="form-control"
+          id="exampleInputPassword1"
+          name="img"
+        />
+      </div>
+      <button type="submit" class="btn btn-primary">Cargar</button>
+      <hr />
+      <a href="/productos" class="btn btn-dark">Ver productos</a>
+    </form>
+  </body>
+</html>

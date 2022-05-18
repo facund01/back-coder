@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../templates/head') %>
+  <body>
+    <div class="container p-5">
+      <h1>Productos</h1>
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Imagen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% data.forEach((x) => { %>
+          <tr>
+            <td><%= x.name%></td>
+            <td>$ <%= x.price%></td>
+            <td><img src="<%= x.img%>" width="150" /></td>
+          </tr>
+          <% }) %>
+        </tbody>
+      </table>
+      <a href="/productos/form" class="btn btn-primary">Cargar productos</a>
+    </div>
+  </body>
+</html>

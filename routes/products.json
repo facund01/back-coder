@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Teclado",
+        "price": 500,
+        "img": "https://media.kingston.com/hyperx/features/hx-features-keyboard-alloyfpspro-litup.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mouse",
+        "price": 300,
+        "img": "https://www.gamingpoint.com.ar/SITES/IMG/gaming-point-06-2021/221_21-10-2021-04-10-01-nb_mouse-gamer-razer-deathadder-v2-wired_ver_64ae085cde3bbdf3b8e20f4e652c29851-07084b6a077a02850f16219799326025-1024-1024.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Auriculares",
+        "price": 100,
+        "img": "https://media.kingston.com/hyperx/product/hx-product-headset-cloud-2-wireless-rd-1-zm-lg.jpg"
+    }
+]
